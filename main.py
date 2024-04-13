@@ -3,6 +3,9 @@ import uvicorn
 from discord_bot import client
 import os
 
+
+
+
 # Function to run the Discord bot
 def run_discord_bot():
   discord_token = os.environ['DISCORD_TOKEN']
